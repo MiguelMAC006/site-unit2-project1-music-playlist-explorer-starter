@@ -10,18 +10,187 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <!-- Your header content here -->
+    <header class="app-header">
+        <h1>Music Playlist Explorer</h1>
+        <nav class="tabs">
+            <button class="tab-btn active" data-tab="all">All</button>
+            <button class="tab-btn" data-tab="featured">Featured</button>
+        </nav>
     </header>
 
-    <main> 
-        <!-- Your main content here -->
+    <main class="main-content">
+        <section class="playlist-cards">
+            <!-- Playlist Card 1 -->
+            <article class="playlist-card">
+                <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop" alt="Late Night Drive playlist cover" class="playlist-cover">
+                <div class="playlist-info">
+                    <h2 class="playlist-title">Late Night Drive</h2>
+                    <p class="playlist-creator">Created by Melody Maven</p>
+                    <div class="playlist-likes">
+                        <button class="like-btn" aria-label="Like playlist">
+                            <span class="like-icon">♥</span>
+                        </button>
+                        <span class="like-count">0</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Playlist Card 2 -->
+            <article class="playlist-card">
+                <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&h=400&fit=crop" alt="That Summer '16 Feeling playlist cover" class="playlist-cover">
+                <div class="playlist-info">
+                    <h2 class="playlist-title">That Summer '16 Feeling</h2>
+                    <p class="playlist-creator">Created by Groove Guardian</p>
+                    <div class="playlist-likes">
+                        <button class="like-btn" aria-label="Like playlist">
+                            <span class="like-icon">♥</span>
+                        </button>
+                        <span class="like-count">26</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Playlist Card 3 -->
+            <article class="playlist-card">
+                <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=400&h=400&fit=crop" alt="Workout Beats playlist cover" class="playlist-cover">
+                <div class="playlist-info">
+                    <h2 class="playlist-title">Workout Beats</h2>
+                    <p class="playlist-creator">Created by Harmony Herald</p>
+                    <div class="playlist-likes">
+                        <button class="like-btn" aria-label="Like playlist">
+                            <span class="like-icon">♥</span>
+                        </button>
+                        <span class="like-count">10</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Playlist Card 4 -->
+            <article class="playlist-card">
+                <img src="https://images.unsplash.com/photo-1533577116850-9cc66cad8a9b?w=400&h=400&fit=crop" alt="Road Trip Anthems playlist cover" class="playlist-cover">
+                <div class="playlist-info">
+                    <h2 class="playlist-title">Road Trip Anthems</h2>
+                    <p class="playlist-creator">Created by Playlist Pioneer</p>
+                    <div class="playlist-likes">
+                        <button class="like-btn" aria-label="Like playlist">
+                            <span class="like-icon">♥</span>
+                        </button>
+                        <span class="like-count">0</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Playlist Card 5 -->
+            <article class="playlist-card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=400&fit=crop" alt="Boss Chick Energy playlist cover" class="playlist-cover">
+                <div class="playlist-info">
+                    <h2 class="playlist-title">Boss Chick Energy</h2>
+                    <p class="playlist-creator">Created by Tempo Tactician</p>
+                    <div class="playlist-likes">
+                        <button class="like-btn" aria-label="Like playlist">
+                            <span class="like-icon">♥</span>
+                        </button>
+                        <span class="like-count">100</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Playlist Card 6 -->
+            <article class="playlist-card">
+                <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&h=400&fit=crop" alt="Rainy Nights playlist cover" class="playlist-cover">
+                <div class="playlist-info">
+                    <h2 class="playlist-title">Rainy Nights</h2>
+                    <p class="playlist-creator">Created by Sonic Sage</p>
+                    <div class="playlist-likes">
+                        <button class="like-btn" aria-label="Like playlist">
+                            <span class="like-icon">♥</span>
+                        </button>
+                        <span class="like-count">1</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Playlist Card 7 -->
+            <article class="playlist-card" data-featured="true">
+                <img src="https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?w=400&h=400&fit=crop" alt="90's R&B playlist cover" class="playlist-cover">
+                <div class="playlist-info">
+                    <h2 class="playlist-title">90's R&B</h2>
+                    <p class="playlist-creator">Created by Vinyl Virtuoso</p>
+                    <div class="playlist-likes">
+                        <button class="like-btn" aria-label="Like playlist">
+                            <span class="like-icon">♥</span>
+                        </button>
+                        <span class="like-count">1</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Playlist Card 8 -->
+            <article class="playlist-card">
+                <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&h=400&fit=crop" alt="Nothing But The Classics playlist cover" class="playlist-cover">
+                <div class="playlist-info">
+                    <h2 class="playlist-title">Nothing But The Classics</h2>
+                    <p class="playlist-creator">Created by Echo Enthusiast</p>
+                    <div class="playlist-likes">
+                        <button class="like-btn" aria-label="Like playlist">
+                            <span class="like-icon">♥</span>
+                        </button>
+                        <span class="like-count">0</span>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
+
+    <!-- Modal Overlay -->
+    <div class="modal-overlay" aria-hidden="false">
+        <div class="modal-content" role="dialog" aria-labelledby="modal-playlist-title">
+            <div class="modal-header">
+                <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=150&h=150&fit=crop" alt="Playlist cover" class="modal-playlist-cover">
+                <div class="modal-playlist-info">
+                    <h2 id="modal-playlist-title" class="modal-playlist-title">Late Night Drive</h2>
+                    <p class="modal-playlist-creator">Created by Melody Maven</p>
+                </div>
+                <button class="shuffle-btn" aria-label="Shuffle playlist">Shuffle</button>
+            </div>
+
+            <div class="modal-songs">
+                <ul class="songs-list">
+                    <li class="song-item">
+                        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=60&h=60&fit=crop" alt="Song cover" class="song-cover">
+                        <div class="song-details">
+                            <div class="song-title">Midnight City</div>
+                            <div class="song-artist">M83</div>
+                            <div class="song-album">Hurry Up, We're Dreaming</div>
+                        </div>
+                        <time class="song-duration">4:03</time>
+                    </li>
+                    <li class="song-item">
+                        <img src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=60&h=60&fit=crop" alt="Song cover" class="song-cover">
+                        <div class="song-details">
+                            <div class="song-title">Electric Feel</div>
+                            <div class="song-artist">MGMT</div>
+                            <div class="song-album">Oracular Spectacular</div>
+                        </div>
+                        <time class="song-duration">3:49</time>
+                    </li>
+                    <li class="song-item">
+                        <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=60&h=60&fit=crop" alt="Song cover" class="song-cover">
+                        <div class="song-details">
+                            <div class="song-title">Nightcall</div>
+                            <div class="song-artist">Kavinsky</div>
+                            <div class="song-album">OutRun</div>
+                        </div>
+                        <time class="song-duration">4:18</time>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <!-- Your footer content here -->
     </footer>
-    <script src="data/data.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,6 +1,355 @@
+/* Global Styles - Reset and base typography for consistency across the app */
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header - Visually distinct from main content with contrasting background, centered text, and generous padding */
+.app-header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+    margin: 0 0 1rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Tabs Navigation - Toggle buttons for All/Featured views with active state highlighting */
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.tab-btn {
+    background-color: transparent;
+    color: #ecf0f1;
+    border: 2px solid #ecf0f1;
+    padding: 0.5rem 2rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.tab-btn:hover {
+    background-color: rgba(236, 240, 241, 0.1);
+}
+
+.tab-btn.active {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+/* Main Content - Spacious container with maximum width for readability */
+.main-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Playlist Cards Container - Responsive grid that adjusts columns based on viewport width, with consistent gaps */
+.playlist-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+/* Playlist Card - Elevated card with subtle shadow, smooth hover effect that lifts the card and enhances shadow for interactivity */
+.playlist-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.playlist-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.playlist-cover {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.playlist-info {
+    padding: 1rem;
+}
+
+.playlist-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.playlist-creator {
+    margin: 0 0 1rem 0;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+/* Like Button - Interactive button with visual feedback on hover, heart icon changes color */
+.playlist-likes {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.like-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem;
+    font-size: 1.5rem;
+    color: #95a5a6;
+    transition: color 0.2s ease;
+}
+
+.like-btn:hover {
+    color: #e74c3c;
+}
+
+.like-btn.liked {
+    color: #e74c3c;
+}
+
+.like-count {
+    font-size: 1rem;
+    color: #7f8c8d;
+    font-weight: 500;
+}
+
+/* Modal Overlay - Full-viewport semi-transparent backdrop that centers the modal and dims the background content */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Modal Content - Elevated floating card with prominent shadow, max dimensions to prevent overflow, scrollable content area */
+.modal-content {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    max-height: 80vh;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-header {
+    padding: 2rem;
+    border-bottom: 1px solid #ecf0f1;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.modal-playlist-cover {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.modal-playlist-info {
+    flex: 1;
+    min-width: 200px;
+}
+
+.modal-playlist-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.modal-playlist-creator {
+    margin: 0;
+    color: #7f8c8d;
+    font-size: 1rem;
+}
+
+/* Shuffle Button - Prominent action button with hover effect to encourage interaction */
+.shuffle-btn {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.shuffle-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Songs List - Scrollable list with consistent spacing, alternating row backgrounds for readability */
+.modal-songs {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem 2rem 2rem;
+}
+
+.songs-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.song-item:hover {
+    background-color: #f8f9fa;
+}
+
+.song-cover {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.song-details {
+    flex: 1;
+    min-width: 0;
+}
+
+.song-title {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.25rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.song-artist {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.song-album {
+    color: #95a5a6;
+    font-size: 0.85rem;
+}
+
+.song-duration {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+/* Footer - Minimal styling to differentiate from main content */
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* Responsive Design - Adjust layout for smaller screens */
+@media (max-width: 768px) {
+    .app-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .playlist-cards {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    .modal-content {
+        width: 95%;
+        max-height: 90vh;
+    }
+
+    .modal-header {
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+
+    .modal-playlist-cover {
+        width: 80px;
+        height: 80px;
+    }
+
+    .modal-playlist-title {
+        font-size: 1.25rem;
+    }
+
+    .modal-songs {
+        padding: 1rem;
+    }
+
+    .song-item {
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .playlist-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .modal-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .shuffle-btn {
+        width: 100%;
+    }
 }
