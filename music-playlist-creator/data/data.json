@@ -1,0 +1,352 @@
+[
+  {
+    "playlistID": 1,
+    "playlistName": "Paranoid & Dreaming",
+    "playlistCoverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/60/ba/0760ba0f-148c-b18f-d0ff-169ee96f3af5/634904078164.png/400x400bb.jpg",
+    "playlistCreator": "Melody Maven",
+    "likeCount": 42,
+    "songs": [
+      {
+        "songID": 101,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/60/ba/0760ba0f-148c-b18f-d0ff-169ee96f3af5/634904078164.png/400x400bb.jpg",
+        "title": "Karma Police",
+        "artist": "Radiohead",
+        "album": "OK Computer",
+        "duration": "4:24"
+      },
+      {
+        "songID": 102,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dd/50/c7/dd50c790-99ac-d3d0-5ab8-e3891fb8fd52/634904032463.png/400x400bb.jpg",
+        "title": "All I Need",
+        "artist": "Radiohead",
+        "album": "In Rainbows",
+        "duration": "3:48"
+      },
+      {
+        "songID": 103,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/62/d2/0362d288-6915-14fb-d617-3ae8bc778e30/191404098776.png/400x400bb.jpg",
+        "title": "Dawn Chorus",
+        "artist": "Thom Yorke",
+        "album": "ANIMA",
+        "duration": "5:23"
+      },
+      {
+        "songID": 104,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/1e/5e/751e5e63-f9f4-de93-b6b0-75578f47aced/652637300369.png/400x400bb.jpg",
+        "title": "Bloodbuzz Ohio",
+        "artist": "The National",
+        "album": "High Violet",
+        "duration": "4:35"
+      },
+      {
+        "songID": 105,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/21/8a/d8/218ad80a-d90c-c277-f5e8-fc8227d267e6/607618825263.png/400x400bb.jpg",
+        "title": "Fake Empire",
+        "artist": "The National",
+        "album": "Boxer",
+        "duration": "3:25"
+      },
+      {
+        "songID": 106,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c1/71/93/c1719342-df7d-e9c5-c87c-53dae5afb289/00042282855329.rgb.jpg/400x400bb.jpg",
+        "title": "Glory Box",
+        "artist": "Portishead",
+        "album": "Dummy",
+        "duration": "5:08"
+      },
+      {
+        "songID": 107,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c1/71/93/c1719342-df7d-e9c5-c87c-53dae5afb289/00042282855329.rgb.jpg/400x400bb.jpg",
+        "title": "Roads",
+        "artist": "Portishead",
+        "album": "Dummy",
+        "duration": "5:03"
+      }
+    ]
+  },
+  {
+    "playlistID": 2,
+    "playlistName": "Trap House Anthems",
+    "playlistCoverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d3/74/1d/d3741d09-5c9a-461b-aba3-fa345d306d5a/00602547616678.rgb.jpg/400x400bb.jpg",
+    "playlistCreator": "Groove Guardian",
+    "likeCount": 88,
+    "songs": [
+      {
+        "songID": 201,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d3/74/1d/d3741d09-5c9a-461b-aba3-fa345d306d5a/00602547616678.rgb.jpg/400x400bb.jpg",
+        "title": "Big Rings",
+        "artist": "Drake & Future",
+        "album": "What a Time to Be Alive",
+        "duration": "3:37"
+      },
+      {
+        "songID": 202,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c9/ca/6b/c9ca6b51-87a9-4a13-d37f-24535687023d/23UMGIM63882.rgb.jpg/400x400bb.jpg",
+        "title": "All the Way Live",
+        "artist": "Metro Boomin, Future & Lil Uzi Vert",
+        "album": "Spider-Man: Across the Spider-Verse",
+        "duration": "4:05"
+      },
+      {
+        "songID": 203,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/11/01/7d110130-c1b3-b99a-8459-9f6a3666ed3c/886446838533.jpg/400x400bb.jpg",
+        "title": "Ric Flair Drip",
+        "artist": "Offset & Metro Boomin",
+        "album": "Without Warning",
+        "duration": "2:52"
+      },
+      {
+        "songID": 204,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/49/8f/e7498f65-df8f-bead-d6e3-2a8d4d642a79/886447235317.jpg/400x400bb.jpg",
+        "title": "Sicko Mode",
+        "artist": "Travis Scott",
+        "album": "Astroworld",
+        "duration": "5:12"
+      },
+      {
+        "songID": 205,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/e5/27/b8e527c8-aaf4-c7b7-5562-c479458ed7d9/886446092645.jpg/400x400bb.jpg",
+        "title": "Goosebumps",
+        "artist": "Travis Scott",
+        "album": "Birds in the Trap Sing McKnight",
+        "duration": "4:03"
+      },
+      {
+        "songID": 206,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/4f/94/7d4f9468-56e1-3a2d-7186-c8088170ef58/196871341899.jpg/400x400bb.jpg",
+        "title": "FE!N",
+        "artist": "Travis Scott",
+        "album": "Utopia",
+        "duration": "3:11"
+      }
+    ]
+  },
+  {
+    "playlistID": 3,
+    "playlistName": "Bedroom Pop Daydream",
+    "playlistCoverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0b/4d/b6/0b4db6bd-2d40-55a5-1714-67f5c816294d/075679659644.jpg/400x400bb.jpg",
+    "playlistCreator": "Harmony Herald",
+    "likeCount": 64,
+    "songs": [
+      {
+        "songID": 301,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0b/4d/b6/0b4db6bd-2d40-55a5-1714-67f5c816294d/075679659644.jpg/400x400bb.jpg",
+        "title": "No One Noticed",
+        "artist": "The Marías",
+        "album": "Submarine",
+        "duration": "3:56"
+      },
+      {
+        "songID": 302,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/5f/fc/715ffc50-c006-500b-ad3e-830a6a6bbc70/artwork.jpg/400x400bb.jpg",
+        "title": "Cariño",
+        "artist": "The Marías",
+        "album": "Superclean, Vol. II",
+        "duration": "4:18"
+      },
+      {
+        "songID": 303,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/98/3f/3a/983f3a97-a9ba-e291-9e7b-242e7c00c6ca/191061742319_1.jpg/400x400bb.jpg",
+        "title": "Lo Que Siento",
+        "artist": "Cuco",
+        "album": "Lo Que Siento",
+        "duration": "5:12"
+      },
+      {
+        "songID": 304,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f2/47/06/f24706bc-a90c-f730-bd8a-586ddde8af3e/829299184631.jpg/400x400bb.jpg",
+        "title": "Bags",
+        "artist": "Clairo",
+        "album": "Immunity",
+        "duration": "4:20"
+      },
+      {
+        "songID": 305,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f2/47/06/f24706bc-a90c-f730-bd8a-586ddde8af3e/829299184631.jpg/400x400bb.jpg",
+        "title": "Sofia",
+        "artist": "Clairo",
+        "album": "Immunity",
+        "duration": "3:08"
+      },
+      {
+        "songID": 306,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cf/57/39/cf5739e6-332a-e64c-bed0-b763893c0517/artwork.jpg/400x400bb.jpg",
+        "title": "Show Me How",
+        "artist": "Men I Trust",
+        "album": "Oncle Jazz",
+        "duration": "3:35"
+      }
+    ]
+  },
+  {
+    "playlistID": 4,
+    "playlistName": "Fuego Latino",
+    "playlistCoverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3e/04/eb/3e04ebf6-370f-f59d-ec84-2c2643db92f1/196626945068.jpg/400x400bb.jpg",
+    "playlistCreator": "Vinyl Virtuoso",
+    "likeCount": 117,
+    "songs": [
+      {
+        "songID": 401,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/fc/6e/8ffc6efb-353f-46ac-eeb6-8247c01cfc87/886444383691.jpg/400x400bb.jpg",
+        "title": "Propuesta Indecente",
+        "artist": "Romeo Santos",
+        "album": "Fórmula, Vol. 2",
+        "duration": "3:55"
+      },
+      {
+        "songID": 402,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ad/a7/dc/ada7dc95-4333-f6df-ce0f-f0eeccbac7f4/886446557991.jpg/400x400bb.jpg",
+        "title": "Imitadora",
+        "artist": "Romeo Santos",
+        "album": "Golden",
+        "duration": "3:54"
+      },
+      {
+        "songID": 403,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fd/1c/c4/fd1cc42a-c642-bb66-5b11-291a568c73d6/617101300023.jpg/400x400bb.jpg",
+        "title": "Obsesión",
+        "artist": "Aventura",
+        "album": "We Broke the Rules",
+        "duration": "4:14"
+      },
+      {
+        "songID": 404,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3e/04/eb/3e04ebf6-370f-f59d-ec84-2c2643db92f1/196626945068.jpg/400x400bb.jpg",
+        "title": "Ojitos Lindos",
+        "artist": "Bad Bunny & Bomba Estéreo",
+        "album": "Un Verano Sin Ti",
+        "duration": "4:18"
+      },
+      {
+        "songID": 405,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/e8/09/abe8092d-ef44-61b9-6b50-ab7efb78ca51/196872401516.jpg/400x400bb.jpg",
+        "title": "Khé?",
+        "artist": "Rauw Alejandro & Romeo Santos",
+        "album": "Cosa Nuestra",
+        "duration": "3:26"
+      },
+      {
+        "songID": 406,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b0/e4/ac/b0e4ac99-eb38-7370-ea50-0bcf0bcbb054/196589949080.jpg/400x400bb.jpg",
+        "title": "BESO",
+        "artist": "ROSALÍA & Rauw Alejandro",
+        "album": "RR",
+        "duration": "3:14"
+      }
+    ]
+  },
+  {
+    "playlistID": 5,
+    "playlistName": "Car Ride Vibes",
+    "playlistCoverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cf/57/39/cf5739e6-332a-e64c-bed0-b763893c0517/artwork.jpg/400x400bb.jpg",
+    "playlistCreator": "Rhythm Roamer",
+    "likeCount": 73,
+    "songs": [
+      {
+        "songID": 501,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3e/04/eb/3e04ebf6-370f-f59d-ec84-2c2643db92f1/196626945068.jpg/400x400bb.jpg",
+        "title": "Tití Me Preguntó",
+        "artist": "Bad Bunny",
+        "album": "Un Verano Sin Ti",
+        "duration": "4:03"
+      },
+      {
+        "songID": 502,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/e5/27/b8e527c8-aaf4-c7b7-5562-c479458ed7d9/886446092645.jpg/400x400bb.jpg",
+        "title": "Goosebumps",
+        "artist": "Travis Scott",
+        "album": "Birds in the Trap Sing McKnight",
+        "duration": "4:03"
+      },
+      {
+        "songID": 503,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cf/57/39/cf5739e6-332a-e64c-bed0-b763893c0517/artwork.jpg/400x400bb.jpg",
+        "title": "Show Me How",
+        "artist": "Men I Trust",
+        "album": "Oncle Jazz",
+        "duration": "3:35"
+      },
+      {
+        "songID": 504,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/5f/fc/715ffc50-c006-500b-ad3e-830a6a6bbc70/artwork.jpg/400x400bb.jpg",
+        "title": "Cariño",
+        "artist": "The Marías",
+        "album": "Superclean, Vol. II",
+        "duration": "4:18"
+      },
+      {
+        "songID": 505,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f2/47/06/f24706bc-a90c-f730-bd8a-586ddde8af3e/829299184631.jpg/400x400bb.jpg",
+        "title": "Sofia",
+        "artist": "Clairo",
+        "album": "Immunity",
+        "duration": "3:08"
+      },
+      {
+        "songID": 506,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c1/71/93/c1719342-df7d-e9c5-c87c-53dae5afb289/00042282855329.rgb.jpg/400x400bb.jpg",
+        "title": "Glory Box",
+        "artist": "Portishead",
+        "album": "Dummy",
+        "duration": "5:08"
+      }
+    ]
+  },
+  {
+    "playlistID": 6,
+    "playlistName": "Late Night Crossfade",
+    "playlistCoverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/49/8f/e7498f65-df8f-bead-d6e3-2a8d4d642a79/886447235317.jpg/400x400bb.jpg",
+    "playlistCreator": "Echo Wanderer",
+    "likeCount": 0,
+    "songs": [
+      {
+        "songID": 601,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/49/8f/e7498f65-df8f-bead-d6e3-2a8d4d642a79/886447235317.jpg/400x400bb.jpg",
+        "title": "Sicko Mode",
+        "artist": "Travis Scott",
+        "album": "Astroworld",
+        "duration": "5:12"
+      },
+      {
+        "songID": 602,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/5f/fc/715ffc50-c006-500b-ad3e-830a6a6bbc70/artwork.jpg/400x400bb.jpg",
+        "title": "Cariño",
+        "artist": "The Marías",
+        "album": "Superclean, Vol. II",
+        "duration": "4:18"
+      },
+      {
+        "songID": 603,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/03/62/d2/0362d288-6915-14fb-d617-3ae8bc778e30/191404098776.png/400x400bb.jpg",
+        "title": "Dawn Chorus",
+        "artist": "Thom Yorke",
+        "album": "ANIMA",
+        "duration": "5:23"
+      },
+      {
+        "songID": 604,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3e/04/eb/3e04ebf6-370f-f59d-ec84-2c2643db92f1/196626945068.jpg/400x400bb.jpg",
+        "title": "Tití Me Preguntó",
+        "artist": "Bad Bunny",
+        "album": "Un Verano Sin Ti",
+        "duration": "4:03"
+      },
+      {
+        "songID": 605,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f2/47/06/f24706bc-a90c-f730-bd8a-586ddde8af3e/829299184631.jpg/400x400bb.jpg",
+        "title": "Bags",
+        "artist": "Clairo",
+        "album": "Immunity",
+        "duration": "4:20"
+      },
+      {
+        "songID": 606,
+        "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c1/71/93/c1719342-df7d-e9c5-c87c-53dae5afb289/00042282855329.rgb.jpg/400x400bb.jpg",
+        "title": "Roads",
+        "artist": "Portishead",
+        "album": "Dummy",
+        "duration": "5:03"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+# Secrets / credentials
+secret.js
+.env
+.env.*
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.cursor/
+.idea/
+*.swp
+
+# Build output
+dist/
+build/
